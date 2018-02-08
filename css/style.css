@@ -141,22 +141,22 @@ p, h1 {
 
 /*REVIEWS*/
 
-.reviews {
+.education {
 	padding:90px 0 90px;
 	text-align: center;
 }
 
-.reviews h1 {
+.education h1 {
 	font-size: 2em;
 	padding-bottom: 25px;
 	color: #337ab7;
 }
 
-.reviews p {
+.education p {
 	padding: 0 0 35px;
 }
 
-.reviews .line2{
+.education .line2{
 	padding-top: 35px;
 }
 
