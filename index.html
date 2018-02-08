@@ -12,6 +12,7 @@
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href="fontawesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,9 +21,11 @@
     <![endif]-->
 
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#myNavBar" data-offset="70">
+
+
     <!-- NAVBAR -->
-      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div id="myNavBar" class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
 
           <div class="navbar-header">
@@ -40,13 +43,13 @@
 
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Press</a></li>
-              <li><a href="#">Screens</a></li>
-              <li><a href="#">Reviews</a></li>
-              <li><a href="#">Download</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#press">Press</a></li>
+              <li><a href="#screenshots">Screens</a></li>
+              <li><a href="#reviews">Reviews</a></li>
+              <li><a href="#download">Download</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
 
@@ -60,7 +63,7 @@
         <div class="container">
           <div clas="row">
             
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 wow fadeInLeft">
             <h1>Welome</h1>
             <p>Curabitur sollicitudin fermentum pretium. Curabitur faucibus dictum sem non fermentum. Quisque sit amet porttitor lorem, vel ornare sem. Cras lacinia nulla vel est auctor aliquam. Curabitur consequat viverra risus a maximus. Nam luctus nisi sit amet augue tincidunt, ut commodo tellus scelerisque. Vivamus eget tellus non tellus bibendum auctor hendrerit non purus. Nulla in magna tristique, placerat eros quis</p>
             <p>vestibulum purus. Donec rhoncus pharetra urna non aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam interdum gravida egestas. Quisque vel ultrices quam, in dapibus tortor. Praesent non turpis lacinia, consequat libero in, egestas ex. Phasellus vel arcu quis massa faucibus efficitur. Etiam nulla justo, consectetur et leo sed, efficitur consequat erat. Morbi a ex sapien.</p>
@@ -70,7 +73,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" align="center">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 wow fadeInRight" align="center">
             <img class="img-responsive" src="img/devices.png">
           </div>
 
@@ -80,13 +83,13 @@
     <!-- HEADER -->
 
     <!-- ABOUT -->
-      <div class="about">
+      <div class="about" id="about">
         <div class="container">
           
           <div class="row">
             <div class="col-lg-12 col-md-12">
-              <h1>ABOUT</h1>
-              <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla magna libero, imperdiet sit amet ex vitae, consequat fermentum nunc. Pellentesque ipsum purus, laoreet ut ullamcorper id, mattis vel felis. Sed ornare nunc lectus, quis fermentum sapien tempor et. Proin vel auctor arcu, non porta lectus. Integer tempor pulvinar blandit. Sed eleifend lacinia ultrices. Maecenas nunc nisl, ornare in egestas vel, rutrum vel massa.</em></p>
+              <h1 class="wow fadeIn" data-wow-delay=".04s">ABOUT</h1>
+              <p class="wow fadeIn" data-wow-delay=".08s"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla magna libero, imperdiet sit amet ex vitae, consequat fermentum nunc. Pellentesque ipsum purus, laoreet ut ullamcorper id, mattis vel felis. Sed ornare nunc lectus, quis fermentum sapien tempor et. Proin vel auctor arcu, non porta lectus. Integer tempor pulvinar blandit. Sed eleifend lacinia ultrices. Maecenas nunc nisl, ornare in egestas vel, rutrum vel massa.</em></p>
             </div>
           </div>
 
@@ -97,15 +100,15 @@
             </div>
 
             <div class="row">
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-4 wow fadeIn" data-wow-delay="0.3s">
                   <img src="img/face1.jpg" class="img-circle">
                   <blockquote><p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<footer>J.Doe - Founder</footer></em></p></blockquote>
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-4 wow fadeIn" data-wow-delay="0.5s">
                   <img src="img/face1.jpg" class="img-circle">
                   <blockquote><p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<footer>J.Doe - Founder</footer></em></p></blockquote>
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-4 wow fadeIn" data-wow-delay="0.7s">
                   <img src="img/face1.jpg" class="img-circle">
                   <blockquote><p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<footer>J.Doe - Founder</footer></em></p></blockquote>
             </div>
@@ -121,7 +124,7 @@
 
 
     <!-- FEATURES -->
-      <div class="features">
+      <div class="features" id="features">
         <div class="container">
           
         <div class="row">
@@ -132,7 +135,7 @@
         </div>
 
         <div class="row">
-              <div class="col-md-4 col-lg-4">
+              <div class="col-md-4 col-lg-4 wow bounceInLeft">
                 <i class="fa fa-cloud-upload fa-3x" aria-hidden="true"></i>
                 <h4>Skill 1</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -144,11 +147,11 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
 
-              <div class="col-md-4 col-lg-4" align="center">
+              <div class="col-md-4 col-lg-4 wow fadeIn" data-wow-delay="0.2s" align="center">
                 <img class="img-responsive" src="img/screenshots/iphonescreen.png">
               </div>
 
-              <div class="col-md-4 col-lg-4">
+              <div class="col-md-4 col-lg-4 wow bounceInRight">
                 <i class="fa fa-cloud-upload fa-3x" aria-hidden="true"></i>
                 <h4>Skill 4</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -167,7 +170,7 @@
 
 
     <!-- PRESS -->
-    <div class="press">
+    <div class="press" id="press">
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-lg-12">
@@ -205,7 +208,7 @@
     <!--PRESS END-->
 
     <!-- SCREEN SHOT -->
-    <div class="screenshots">
+    <div class="screenshots" id="screenshots">
       <div class="container">
         <div class="row">
          <div class="col-lg-12 col-md-12">
@@ -214,16 +217,16 @@
          </div>
           </div>
           <div class="row">
-           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow flipInY" data-wow-delay="0.2s">
              <img class="img-responsive" src="img/screenshots/profile-home.jpg">
            </div>
-           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow flipInY" data-wow-delay="0.3s">
              <img class="img-responsive" src="img/screenshots/photostream.jpg">
            </div>
-           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow flipInY" data-wow-delay="0.4s">
              <img class="img-responsive" src="img/screenshots/messenger-overview.jpg">
            </div>
-           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow flipInY" data-wow-delay="0.5s">
              <img class="img-responsive" src="img/screenshots/weather.jpg">
            </div> 
           </div>
@@ -233,7 +236,7 @@
     <!--SCREEN SHOT END-->
 
       <!-- REVIEWS -->
-    <div class="reviews">
+    <div class="reviews" id="reviews">
       <div class="container">
         <div class="row">
          <div class="col-lg-12 col-md-12">
@@ -271,8 +274,9 @@
     </div>
     
     <!--REVIEWS END-->
+
 <!-- BUY -->
-    <div class="buy">
+    <div class="buy" id="download">
       <div class="container">
         
         <div class="row">
@@ -284,8 +288,8 @@
 
         <div class="row">
         <div class="col-lg-12 col-md-12">
-          <button><a href="http://www.apple.com" target="blank"><img class="img-responsive" src="img/app-store.png"/></a></button>
-          <button><a href="http://www.google.com" target="blank"><img class="img-responsive" src="img/google-play.png"/></a></button>
+          <button class="wow bounceInLeft"><a href="http://www.apple.com" target="blank"><img class="img-responsive" src="img/app-store.png"/></a></button>
+          <button class="wow bounceInRight"><a href="http://www.google.com" target="blank"><img class="img-responsive" src="img/google-play.png"/></a></button>
         </div>
         </div>
       </div> 
@@ -296,7 +300,7 @@
 
 
     <!-- CONTACT -->
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="container">
           
         <div class="row">
@@ -304,9 +308,9 @@
               <h1>CONTACT ME</h1>
               <p>Connect with me via:</p>
               <ul class="list-inline">
-                <li><a href="https://www.linkedin.com/in/jason-henderson-08761b112/" target="blank"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a></li>
-                <li><a href="https://github.com/jsnhndrsn1985/" target="blank"><i class="fa fa-github-square fa-5x" aria-hidden="true"></i></a></li>
-                <li><a href="mailto:jsnhndrsn1985@gmail.com"><i class="fa fa-envelope fa-5x" aria-hidden="true"></i></a></li>
+                <li class="wow fadeIn" data-wow-delay="0.2s"><a href="https://www.linkedin.com/in/jason-henderson-08761b112/" target="blank"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a></li>
+                <li class="wow fadeIn" data-wow-delay="0.3s"><a href="https://github.com/jsnhndrsn1985/" target="blank"><i class="fa fa-github-square fa-5x" aria-hidden="true"></i></a></li>
+                <li class="wow fadeIn" data-wow-delay="0.4s"><a href="mailto:jsnhndrsn1985@gmail.com"><i class="fa fa-envelope fa-5x" aria-hidden="true"></i></a></li>
               </ul>
             </div>
         </div>
@@ -324,9 +328,47 @@
 
     <!-- CONTACT END -->
 
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="container">
+          
+        <div class="row">
+            <div class="col-md-4 col-lg-4">
+              <h1>LOGO</h1>
+              <p>Since 2015</p>
+              <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</em></p>
+            </div>
+
+            <div class="col-md-4 col-lg-4">
+              <h1>GET IN TOUCH:</h1>
+              <p><a href="mailto:jsnhndrsn1985@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>jsnhndrsn1985@gmail.com</a></p>
+            </div>
+            
+            <div class="col-md-4 col-lg-4">
+              <h1>ABOUT US:</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+              <p>consectetur adipiscing &copy; </p>
+            </div>
+
+
+        </div>
+        
+        
+
+        </div>
+      </div>
+
+    <!-- FOOTER END -->
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
   </body>
 </html>
